@@ -165,3 +165,30 @@ body{
     border-radius: 50%;
     padding: 10px;
 }
+
+/* gallery section  */
+
+.gallery-section{
+    max-width: 1250px;
+    margin: 0 auto;
+    margin-top: 30px;
+    border: 2px solid blue;
+}
+
+.gallery-container{
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+     gap: 10px;
+}
+
+.single-gallery img{
+    width: 70%;
+    margin: 0 auto;
+}
+.single-gallery{
+ flex-basis: 400px;
+ border: 2px solid red;
+ border-radius: 20px;
+ box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
