@@ -2,3 +2,166 @@
 body{
     font-family: "Poppins", sans-serif;
 }
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* navbar css starts here  */
+.header{
+    background-color: #9376e0;
+}
+.nav-section{
+    max-width: 1250px;
+    /* background-color: red; */
+    margin: 0 auto;
+    display: flex;
+}
+
+.nav-container{
+    min-height: 20px;
+    display: flex;
+    align-items: center; 
+    width: 50%;
+}
+.nav-container img{
+    width: 90px;
+}
+.nav-container p{
+    font-size: 25px;
+    font-weight: 500;
+}
+.nav-container p .special{
+    color: #e893cf;
+    font-weight: 900px;
+}
+.items-container{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.items-container a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+.longin-button{
+    padding: 10px 20px;
+    background-color: #e893cf;
+    border-radius: 10px;
+}
+.items-container .longin-button a{
+    
+    color: black;
+}
+
+/* banner section style  */
+.banner-section{
+    max-width: 1250px;
+    margin: 0 auto;
+    min-height: 400px;
+    display: flex;
+    background-color: #e6e9eb;
+    margin-top: 30px;
+    border-radius: 10px;
+    padding: 20px;
+}
+.text-container{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+.banner-image-container{
+    width: 50%;
+    position: relative;
+
+}
+.banner-image-container img{
+    width: 100%;
+    height: 100%;
+    display: block;
+    margin:0 auto;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/* .text-container h1, p, span{
+    font-size: 45px;
+} */
+
+.banner-heading{
+    background: linear-gradient(to bottom, #e893cf, #9376e0);
+    background-clip: text;
+    color: transparent;
+    font-size: 60px;
+}
+#collections{
+    font-family: "Dancing Script", cursive;
+    font-size: 35px;
+}
+.fa-brands{
+    font-size: 45px;
+}
+.icons{
+    display: flex;
+   gap: 10px;
+}
+.common-button{
+    padding: 10px 20px;
+    /* color: white; */
+    border-radius: 5px;
+}
+.discount{
+    width: 90px;
+    height: 90px;
+    background-color: rgb(128 ,128, 16);
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    color: white;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 70%;
+    left: 69%;
+}
+
+/* products styles  */
+
+.product-section{
+    max-width: 1250px;
+    margin: 0 auto;
+}
+.gris-container{
+    /* min-width: 400px; */
+    /* border: 2px solid red; */
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(3,1fr);
+}
+.single-product{
+    /* border: 2px solid blue; */
+    /* width: 30%; */
+    padding: 10px;
+    background-color: #e6e9eb;
+    border-radius: 5px;
+}
+.single-product img{
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+}
+.heading-icons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.icon{
+    background-color: #e893cf;
+    font-size: 20px;
+    border-radius: 50%;
+    padding: 10px;
+}
